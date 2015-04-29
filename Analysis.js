@@ -10,7 +10,7 @@ function Analysis(_args) {
 	var ContextFieldView = require('ui/common/ContextField');
 	var ContextField2View = require('ui/common/ContextField2');
 	var ContextField3View = require('ui/common/ContextField3');
-	var ContextField3View = require('ui/common/ContextField3');
+	var animate = require('ui/common/animate');
 	
 	//create object instance, a parasitic subclass of Observable
 	var masterView = Ti.UI.createView({
